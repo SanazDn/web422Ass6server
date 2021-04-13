@@ -37,9 +37,9 @@ app.use(express.json());
 app.use(cors());
 passport.use(strategy);
 
-// add passport as application-level middleware
+
 app.use(passport.initialize());
-/* TODO Add Your Routes Here */
+
 
 app.post("/api/user/register",(req,res)=>{
 
