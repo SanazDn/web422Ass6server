@@ -31,7 +31,7 @@ const userService = require("./user-service.js");
 
 const app = express();
 
-const HTTP_PORT = process.env.PORT || 5002;
+const HTTP_PORT = process.env.PORT || 8080;
 
 app.use(express.json());
 app.use(cors());
